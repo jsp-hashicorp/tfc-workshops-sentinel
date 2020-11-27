@@ -1,5 +1,6 @@
 policy "enforce-mandatory-tags" {
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "soft-mandatory"
+    #  enforcement_level = "hard-mandatory"
 }
 
 module "tfplan-functions" {
